@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<style>.shop-container {position: relative !important;padding-bottom: 187% !important;padding-top: 35px !important;height: 0 !important;overflow: hidden !important;}.shop-container iframe {position: absolute !important;top: 0 !important;left: 0 !important;width: 100% !important;height: 100% !important;border: none !important;}</style>
+<body>
+<div class="shop-container"></div>
+<script>function getUrlParameter(e) { e = e.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]"); var r = new RegExp("[\\?&]" + e + "=([^&#]*)").exec(location.search); return null === r ? "" : decodeURIComponent(r[1].replace(/\+/g, " ")) } var container = document.getElementsByClassName("shop-container"); if (getUrlParameter("tx")) { var url = window.location.href, queryString = url.split("?"), iframe_url = "https://nationwidecaravanninguk.com/embedshop/shop/checkout?" + queryString[1]; container[0].innerHTML = '<iframe src="' + iframe_url + '"></iframe>' } else container[0].innerHTML = '<iframe src="https://nationwidecaravanninguk.com/embedshop/shop/products?userid=1901"></iframe>';</script>
+</body>
+</html>
